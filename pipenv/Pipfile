@@ -6,5 +6,20 @@ jupyterlab = ">=4"
 # https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/issues/164
 notebook = "<7"
 
+#
+# Jupyter extensions
+#
+
+# Allows running external processes alongside JupyterLab
+jupyter-server-proxy = ">=4.1"
+
+#
+# Jupyter Kernels
+#
+
+# Matlab kernels
+jupyter-matlab-proxy = ">=0.8"
+matlab-proxy = ">=0.9"
+
 [requires]
 python_version = "3.11"
