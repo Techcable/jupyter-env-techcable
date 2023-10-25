@@ -1,5 +1,5 @@
 [packages]
-jupyterlab = "*"
+jupyterlab = ">=4"
 # Needs to be pinned below version 7, because they removed notebook.core
 #
 # This crashes jupyter_nbextensions_configurator, which is required for Matlab
