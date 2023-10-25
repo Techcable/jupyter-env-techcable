@@ -1,2 +1,7 @@
 [packages]
 jupyterlab = "*"
+# Needs to be pinned below version 7, because they removed notebook.core
+#
+# This crashes jupyter_nbextensions_configurator, which is required for Matlab
+# https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/issues/164
+notebook = "<7"
